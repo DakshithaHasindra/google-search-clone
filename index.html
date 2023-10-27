@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img{
+            position: relative;
+            left: 50%;
+            text-align: center;
+            transform: translateX(-50%);
+        }
+        input{
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid lightgray;
+            outline: none;
+            position: relative;
+            left: 50%;
+            text-align: center;
+            transform: translateX(-50%);
+            width: 500px;
+
+        }
+
+        input:focus{
+            border: 1px solid skyblue;
+        }
+
+        button{
+            padding: 10px;
+            cursor: pointer;
+            position: relative;
+            left: 50%;
+            text-align: center;
+            transform: translateX(-50%);
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.google.com/search" method="get" enctype="application/x-www-form-urlencoded">
+        <img src="/download.png"alt="">
+        <br>
+        <input type="text" name="q" >
+        <div>
+            <button>Search</button>
+            <button type="reset">I'm Feeling Lucky</button>
+    
+        </div>
+        </form>
+</body>
+
+</html>
